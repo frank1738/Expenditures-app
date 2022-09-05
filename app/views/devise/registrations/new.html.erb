@@ -1,0 +1,39 @@
+<nav >
+  <ul class="nav-bar">
+  <li>
+    <%= link_to '<', root_path, class: "link back" %>
+  </li>
+    <li>
+      <p>Register</p>
+    </li>
+    <li>
+      <p>Next</p>
+    </li>
+  </ul>
+</nav>
+
+<div class="container">
+ <div class="container">
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <%= render "devise/shared/error_messages", resource: resource %>
+
+    <div class="field">
+      <%= f.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Full name",  class: "input email" %>
+    </div>
+    <div class="field">
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Email",  class: "input"%>
+    </div>
+
+    <div class="field">
+      <%= f.password_field :password, autocomplete: "new-password", placeholder: "Password(6 characters)",  class: "input"%>
+    </div>
+    <div class="field">
+      <%= f.password_field :password_confirmation, autocomplete: "new-password",  placeholder: "Confirm your password",  class: "input"%>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Sign up",  class: 'submit-login' %>
+    </div>
+  <% end %>
+  </div>
+</div>

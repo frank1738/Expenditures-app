@@ -1,56 +1,81 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Expenditure App
 
-> Description the project.
-
+- This is a mobile web application where you can manage your budget:you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- Ruby on Rails
+- Rubocop
+- Rspec
+- OOP
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+- [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) on your local machine
+- [Install Ruby on Rails](https://guides.rubyonrails.org/v5.1/getting_started.html)
 
-### Setup
+  ```
+  git clone `https://github.com/frank1738/Expenditures-app.git`
+  ```
 
-### Install
+- To get started, In the root directory run:
 
-### Usage
+  ```
+  gem install bundler
+  ```
 
-### Run tests
+  Then run:
 
-### Deployment
+  ```
+  bundle install
+  ```
 
+  To start the server run:
 
+  ```
+  rails s
+  ```
 
-## Authors
+  Open the browser with `localhost:3000`
 
-👤 **Author1**
+## After installing bundle
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Please run the following commands `rails db:create` `rails db:migrate` `rails s`
 
-👤 **Author2**
+## Tests
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+```
+bundle exec rspec
+```
+
+Or
+
+```
+rspec spec
+```
+
+### To track linter errors locally follow these steps:
+
+Track linter errors run:
+
+```
+rubocop
+```
+
+## Author
+
+👤 **Frankline osoro**
+
+- GitHub: [@frank1738](https://github.com/frank1738)
+- Twitter: [@frankhiggins08](https://twitter.com/frankhiggins08)
+- LinkedIn: [Frankline Osoro](http://www.linkedin.com/in/frankline-osoro-b526ba18b)
 
 ## 🤝 Contributing
 
@@ -64,9 +89,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance the author of the [original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+
 
 ## 📝 License
 

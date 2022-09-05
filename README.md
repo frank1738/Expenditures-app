@@ -12,6 +12,11 @@
 - Rspec
 - OOP
 
+## ERD
+
+![image](https://user-images.githubusercontent.com/98453979/188452222-ec0c2c47-24e1-4f1a-a85b-730e7c58b55c.png)
+
+
 ## Live Demo (if available)
 
 ## Getting Started

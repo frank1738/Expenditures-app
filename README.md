@@ -4,8 +4,17 @@
 
 - This is a mobile web application where you can manage your budget, you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
+### login
 
-![image](https://user-images.githubusercontent.com/98453979/188453030-26b5fe51-8d89-4d11-9fcc-36fe69c754ba.png)   ![image](https://user-images.githubusercontent.com/98453979/188453598-17482b66-12e1-418e-873e-d67bf1017179.png)   ![image](https://user-images.githubusercontent.com/98453979/188453788-001a5192-720f-4d32-9f3f-9f3fa6e7ad32.png)
+![image](https://user-images.githubusercontent.com/98453979/188453030-26b5fe51-8d89-4d11-9fcc-36fe69c754ba.png)
+
+### homepage
+
+![image](https://user-images.githubusercontent.com/98453979/188453598-17482b66-12e1-418e-873e-d67bf1017179.png)
+
+### transactions
+
+![image](https://user-images.githubusercontent.com/98453979/188453788-001a5192-720f-4d32-9f3f-9f3fa6e7ad32.png)
 
 
 ## Built With

@@ -2,7 +2,7 @@
 
 # Expenditure App
 
-- This is a mobile web application where you can manage your budget:you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+- This is a mobile web application where you can manage your budget, you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 ## Built With
 
@@ -92,9 +92,6 @@ Give a ⭐️ if you like this project!
 - Microverse
 - [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance the author of the [original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 
-
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed..

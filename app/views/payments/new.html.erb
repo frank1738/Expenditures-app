@@ -1,0 +1,16 @@
+<nav>
+  <ul class="nav-bar">
+    <li>
+    <%= link_to '<', category_url(@category_id) , class: "link back" %>
+    </li>
+    <li>
+      <h1>Add Payment</h1>
+    </li>
+    <li>
+      <%= button_to 'LOG OUT', destroy_user_session_path, method: :delete, class: "logout-btn" %>
+    </li>
+  </ul>
+</nav>
+<%= render partial: "form", locals: { payment: @payment, category_id: params[:category_id] } %>
+
+

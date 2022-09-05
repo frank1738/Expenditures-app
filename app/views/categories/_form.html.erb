@@ -1,0 +1,29 @@
+<div>
+  <div>
+    <%= form_with(model: category) do |form| %>
+      <% if category.errors.any? %>
+        <div>
+          <h2><%= pluralize(category.errors.count, "error") %> prohibited this category from being saved:</h2>
+
+          <ul>
+            <% category.errors.each do |error| %>
+              <li><%= error.full_message %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div>
+        <%= form.text_field :name, placeholder: 'Enter Category name',class: "input email" %>
+      </div>
+      <div class='select-div'>
+         <%= form.label :icon, "Select label for an icon:", class: "select-icon" %>
+         <%= form.select  :icon,["Education", "Entertainment", "Healthcare", "Shopping", "Utilities", "Other" ] %>
+      </div>
+
+      <div class="actions">
+        <%= form.submit 'Add', class: 'submit-login' %>
+      </div>
+    <% end %>
+  </div>
+</div>

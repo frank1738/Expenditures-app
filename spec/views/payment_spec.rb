@@ -6,7 +6,7 @@ RSpec.describe 'Expenditure', type: :feature do
       @user = User.create! password: '123456', email: 'user@email.com', name: 'User Name'
       @category = Category.create! name: 'group', author_id: @user.id, icon: 'Education'
       Payment.create! name: 'Expenditure', author_id: @user.id, amount: 20
-      Payment.create! name: 'new Expenditure', author_id: @user.id,amount: 50
+      Payment.create! name: 'new Expenditure', author_id: @user.id, amount: 50
 
       visit '/users/sign_in'
       fill_in 'Email', with: 'user@email.com'
